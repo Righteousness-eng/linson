@@ -3,47 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Portfolio | Responsive Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <header>
-    <h1>OMUNIZUA RIGHTEOUSNESS</h1>
-    <h2>Front End Developer</h2>
-  <nav>
-    <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contacts</a></li>
-    </ul>
-  </nav>
- </header>
-   <main>
+      <nav>
+        <div class="logo"><a href="#">Righteousness</a></div>
+        <i class="ri-menu-line"></i>
+          <div class="navdiv">
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Skills</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Contacts</a></li>
+            </ul>
+          </div>
+      </nav>
+      <div class="nav_content">
+        <div class="collage">
+         <h1>Hello! I'm<a href=",">Righteousness,<br></a>a front-end  web developer</h1>
+        </div>
+        <img src="IMG-20240719-WA0178_4.jpg">
+      </div>
+        
+    <div class="container">  
+      <section>
+        <h3>About me</h3>
+        <p>
+          Welcome to my web developer portfolio, I'm Righteousness, a passionate web developer aspiring to be as skilled and talented as my tutor{Sir David}. I recently started learning web dev., and it has been an interesting journey so far. I have passion for creating user-friendly, responsive and beautiful websites, (a side skill for future purposes) which I will achieve via learning about git, git hub, html, css, java script amongst others. I sincerely hope that i'm able to achieve all these and more!
+        </p>
+      </section>
+      <div class="main-line-1"></div>
+      <section class="skill-container">
+        <h3>Skills</h3>
+          <ul>
+           <li>GIT:
+              <p>Git is a distributed version control system (DVCS) that tracks versions of files. It’s commonly used by programmers to manage source code collaboratively. Below are some major functions of Git:
+                <li>Local Repositories</li>
+                <li>Branching and Parallel Development</li>
+                <li>History Tracking</li>
+                <li>Speed and,</li>
+                <li>Efficiency</li>
+              </p>
+           </li>
+          </ul>
+           <li>GIT HUB:
+             <p>
+              GitHub is a cloud-based Git repository hosting service. It makes it easier for individuals and teams to use Git for version control and collaboration. 
+             </p>
+           </li>
+           <li>HTML:
+              <p>HTML stands for Hyper Text Markup Language. It is the standard markup language for creating Web pages. It provides the structural foundation, defining the content and layout of web documents. It consists of a series of elements that tells the browser how to display contents.</p>
+           </li>
+           <li>CSS:
+              <p>CSS is the language mainly used to style an HTML document. It describes how HTML elements should be displayed, creates layouts, split contents into rows & columns, and adds animaations. it is essential for making web pages visually appealing.</p>
+           </li>
+      </section>
+    </div>
+    <div class="main-line-2"></div>
+    <div class="project-container">
+      <section>
+        <h3>Projects</h3>
+        <div class="features">
+          <div class="row-1">
+            <div class="text-col">
+              <li>Created a repository:
+                <p>
+                  I started by having both git and git hub accounts and signing in, then created a repository on git hub and then initialized it on git bash, and started working on it via both of them. My main aim was to create a repository of my own, visible to the public which would give a general idea of what my page is about.
+                </p>
+              </li>
+            </div>
+            <div class="img-col-1">
+              <img src="repo screenshot.png">
+            </div>
+          </div>
+          <div class="line-1"></div>
+          <div class="row-2">
+            <div class="text-col">
+              <li>Created an issue:
+                <p>
+                  I went to my git hub account via online and then created an issue, committed it, and pulled it from the remote server to my (local) git bash via pull request. Thereafter, i merged the files from other branches and the default branch. My goal was mainly to solve an issue. 
+                </p>
+              </li>
+            </div>
+            <div class="img-col">
+              <img src="Issues screenshot.png">
+            </div>
+          </div>
+          <div class="line-2"></div>
+          <div class="row-3">
+            <div class="text-col">
+              <li>Created a Netflix website clone:
+                <p>
+                  I made sure to have an extension; (live server), then i opened an already created folder in the extension and two new files; (index.html, style.css) inside of that folder. After which i made sure that all the images I needed were downloaded and uploaded in the original folder, the i started working on it via HTML and CSS (after I linked them both). My purpose was to monitor my progress and so far, it has been great!
+                </p>
+              </li>
+            </div>
+            <div class="img-col-3">
+              <img src="Netflix screenshot.png">
+            </div>
+          </div>
+          <div class="line-3"></div>
+        </div>
+      </section>
+      
     <section>
-<h3>About me</h3>
-<p>
-    Hello! I'm righteousness by name, a passionate web developer hoping to be a skilled web developer, as talented as my tutor{Sir David}. I recently started learning web dev., and it has been an interesting journey so far. I enjoy creating things that live on the web, my main focus is having a side skill that i can fall back on for future purposes via learning about git, git hub, html, css, java script amongst others. I sincerely hope that i'm able to achieve all these and more!
-</p>
-   </section>
-   <section>
-  <h3>Skills</h3>
-  <ol>
-    <li>git</li>
-    <li>git hub</li>
-    <li>html</li>
-    <li>css</li>
-    <li>java script</li>
-  </ol>
-  </section>
-  <section>
-    <h3>Projects</h3>
-    <li>created, initialized and worked on a repository {git and git hub}:
-<p>
-    Started by having both (git and git hub) accounts and signing in, then created a repository on git hub and then initialized it on git bash, and started working on it via both of them. My main aim was to create a repository of my own, visible to the public which would give a general idea of what my page is about.
-</p>
-    </li>
-    <li>created a linked in sign up page</li>
-    <li>created an issue on git hub and pulled request</li>
- </main>
+      </div class="row-4">
+        <h3>Contact</h3>
+        <div class="contact-section">
+          <div><label>Name:</label>
+            <input type="name" name="name">
+          </div>
+          <div><label>Email:</label>
+            <input type="email">
+          </div>
+          <form class="message-sec">
+            <div><label>Message:</label>
+              <textarea name="message" id="message"></textarea>
+              <button>Submit</button>
+            </div>
+          </form>
+        </div>
+      </div> 
+    </section> 
 </body>
 </html>
